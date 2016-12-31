@@ -2,9 +2,10 @@
     'use strict'
 
     angular
-        .module('app' , ['ngAnimate' , 'ngRoute'])
+        .module('app' , ['ngAnimate' , 'ngRoute'] /*dependecies*/)
         .config(routeConfig)
 
+    //inject dependecies into routeConfig
     routeConfig.$inject = ['$routeProvider'];
 
     function routeConfig($routeProvider) {
