@@ -20,7 +20,6 @@
                 {first: 'Anthony', last: 'Tornatore', lunchMoney: 38.4},
                 {first: 'Pam', last: 'Dale', lunchMoney: 4.003}
             ];
-
         }
     }
 })();
