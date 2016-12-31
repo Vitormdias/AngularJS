@@ -8,8 +8,7 @@ const port         = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
-
-app.use('/', express.static('./src/client'));
+app.use('/', express.static('../src/client'));
 
 app.listen(port, () => {
     console.log('Express server listening on port ' + port);
