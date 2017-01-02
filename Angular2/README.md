@@ -1,6 +1,6 @@
 # Angular 2 basic tutorial
 
-## Let's create a simple Angular2 app:
+## Let's create a simple Angular 2 app:
 
 ### first thing, install angular-cli
 ```
@@ -30,7 +30,7 @@
 
     OR
 
-ng g c simple-form -it -is
+    ng g c simple-form -it -is
 ```
 * It will create a new directory: angular2-fundamentals/src/app/simple-form
 
@@ -40,7 +40,7 @@ ng g c simple-form -it -is
   declarations: [
     AppComponent,
     SimpleFormComponent
-]
+  ]
 ```
 ### Now replace the content in: angular2-fundamentals/src/app/app.component.html:
 
@@ -49,7 +49,7 @@ ng g c simple-form -it -is
     <app-simple-form>
 
     </app-simple-form>
-</div>
+  </div>
 ```
 
 * Now you are using your component
@@ -71,7 +71,7 @@ ng g c simple-form -it -is
     ```
       onClick(value) {
           console.log(value);
-  }
+      }
     ```
 
 ### You can also use '$event'
@@ -88,7 +88,7 @@ ng g c simple-form -it -is
       onClick(event , value) {
           console.log(event);
           console.log(value);
-  }
+      }
     ```
 
 ### Let's create our first service
@@ -98,7 +98,7 @@ ng g c simple-form -it -is
 
     OR
 
-ng g s mail
+    ng g s mail
 ```
 
 * It will create some files, but you have to provide to your app, so insert this in app.module.ts, and import it
@@ -126,9 +126,9 @@ ng g s mail
         <app-simple-form>
 
         </app-simple-form>
-  </div>
+      </div>
 
-  {{mail.message}}
+      {{mail.message}}
     ```
 
 ### Another thing we can use to make our code cleaner, is use injections
